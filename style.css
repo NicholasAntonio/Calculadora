@@ -1,0 +1,110 @@
+@import url('https://fonts.googleapis.com/css2?family=Bruno+Ace+SC&family=Rubik:ital,wght@1,300&family=Sigmar&display=swap');
+html{
+    box-sizing:border-box;
+    height: 100%;
+}
+
+*,
+*::before,
+*::after{
+    box-sizing: inherit;
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    align-items: center;
+    background-image: linear-gradient(10deg, #ff3cd9 0, #ff37e4 12.5%, #ff36ea 25%, #ff37eb 37.5%, #ff38e6 50%, #d439de 62.5%, #ac3bd7 75%, #863dcf 87.5%, #5e3fc9 100%);
+    display: flex;
+    font-family: 'Bruno Ace SC', cursive;
+    font-display: swap;
+    height:inherit;
+    justify-content: center;  
+}
+
+.calculadora{
+    backdrop-filter: blur(5,5px);
+    -webkit-backdrop-filter: blur(5,5px);
+     background:#bec8d6;
+     border: 2px solid rgba(255,255,255,0.01);
+     border-radius: 12px;
+     box-shadow: 0 4px 30px rgba(35,35,35,0.1);
+     color: #232323;
+     backdrop-filter: blur(4px);
+     -webkit-backdrop-filter: blur(4px);
+     background: rgba(255,255,255,0.30);
+     border: 1px solid rgba(255,255,255,0.34);
+     flex-basis: 400px;
+     height: 600px;
+     padding: 20px 35px;
+}
+
+.tela{
+    backdrop-filter: blur(5.5px);
+    -webkit-backdrop-filter: blur(5.5px);
+    background: #bec8d6;
+    border: 2px solid rgba(255,255,255,0.34);
+    border-radius: 12px;
+    box-shadow: 0 4px 30px rgba(22, 21, 21, 0.3);
+    color:#232323;
+    font-size: 35px;
+    overflow: auto;
+    padding: 20px;
+    text-align: right;
+    width:100%
+}
+
+.linha_botoes_calc{
+    display: flex;
+    justify-content:space-between;
+    margin: 5% 0;
+}
+
+.botao_calc{
+    backdrop-filter: blur(5,5px);
+    -webkit-backdrop-filter: blur(5,5px);
+     background:#bec8d6;
+     border: 2px solid rgba(255,255,255,0.01);
+     border-radius: 2000px;
+     box-shadow: 0 4px 30px rgba(35,35,35,0.1);
+     color: #232323;
+     backdrop-filter: blur(4px);
+     -webkit-backdrop-filter: blur(4px);
+     background: rgba(255,255,255,0.30);
+     border: 1px solid rgba(255,255,255,0.34);
+     flex-basis: 25%;
+     font-family: inherit;
+     font-size: 24px;
+     height: 70px;
+     padding: 20px 35px;
+}
+
+.botao_calc:last-child{
+    backdrop-filter: blur(5,5px);
+    -webkit-backdrop-filter: blur(5,5px);
+     background:#1658b4a8;
+     border: 2px solid rgba(255,255,255,0.01);
+     border-radius: 2000px;
+     box-shadow: 0 4px 30px rgba(35,35,35,0.1);
+}
+
+.botao_calc:last-child:hover{
+    background-color: inherit;
+    color:inherit;
+}
+
+.botao_calc:hover{
+    background-color: inherit;
+}
+
+.botao_calc:last-child:active{
+    background-color: #5e3fc9;
+}
+
+.botao_calc:active{
+    background-color: #ff38e6;
+}
+
+.triple{
+    flex-basis: 70%;
+}
