@@ -1,3 +1,2 @@
 # Calculadora
-Uma calculadora desenvolvida com uso de HTML5 + CSS . Ainda sem implementação de JavaScript, que será feita em breve.
-Objeto de estudo para absorção de conhecimentos acerca de HTML5,CSS E JavaScript. Script em JS ainda sendo desenvolvido.
+Calculadora sendo desenvolvida em JavaScript, com uso de HTML5 para estruturação e CSS para estilização. Objeto de estudo em JS, ainda sendo finalizado.
